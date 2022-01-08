@@ -1,0 +1,29 @@
+
+#include<iostream>
+#include<stdio.h>
+#include<vector>
+#include<string>
+using namespace std;
+void plus()
+{
+
+}
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	FILE *fp;
+	int o;
+	string k,s;
+	fp = fopen("passwords", "a+");
+	cin.getline(s,3);
+	cout << s;
+	if(s=="")
+		 o = 0;
+	else
+		 o = 1;
+	//for (int i = 0; i < n; i++)
+	//{
+	//	cout << rand() % 90 + 48;
+	//}
+
+}
